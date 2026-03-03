@@ -1,29 +1,29 @@
-# Reporting Dashboard — Take-Home Assignment
+# Reporting Dashboard — Prueba Técnica
 
-## Getting Started
+## Para Empezar
 
-1. Read **[INSTRUCTIONS.md](INSTRUCTIONS.md)** for the full assignment details.
+1. Leé **[INSTRUCTIONS.md](INSTRUCTIONS.md)** para los detalles completos de la prueba.
 
-2. Install dependencies:
+2. Instalá dependencias:
 ```bash
 npm install
 ```
 
-3. Set up your PostgreSQL database and run the seed script:
+3. Configurá tu base de datos PostgreSQL y ejecutá el script de seed:
 ```bash
-psql -U your_user -d your_database -f database/seed.sql
+psql -U tu_usuario -d tu_base_de_datos -f database/seed.sql
 ```
 
-4. Start the development server:
+4. Iniciá el servidor de desarrollo:
 ```bash
 npm run dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) to see the app.
+Abrí [http://localhost:3000](http://localhost:3000) para ver la app.
 
-## Pre-installed
+## Pre-instalado
 
 - **Next.js** (App Router)
 - **TypeScript**
 - **Tailwind CSS**
-- **shadcn/ui** (ready to use — add components with `npx shadcn@latest add [component]`)
+- **shadcn/ui** (listo para usar — agregá componentes con `npx shadcn@latest add [componente]`)
